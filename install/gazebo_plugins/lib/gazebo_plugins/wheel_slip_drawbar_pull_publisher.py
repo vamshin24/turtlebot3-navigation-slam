@@ -1,0 +1,1 @@
+/home/vamshin24/turtlebot3_ws/src/gazebo_ros_pkgs/gazebo_plugins/scripts/wheel_slip_drawbar_pull_publisher.py

@@ -1,0 +1,22 @@
+[0.010s] Invoking command in '/home/vamshin24/turtlebot3_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vamshin24/turtlebot3_ws/build/gazebo_dev -- -j6 -l6
+[0.060s] Invoked command in '/home/vamshin24/turtlebot3_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vamshin24/turtlebot3_ws/build/gazebo_dev -- -j6 -l6
+[0.064s] Invoking command in '/home/vamshin24/turtlebot3_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vamshin24/turtlebot3_ws/build/gazebo_dev
+[0.068s] -- Install configuration: ""
+[0.069s] -- Execute custom install script
+[0.070s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/ament_index/resource_index/package_run_dependencies/gazebo_dev
+[0.070s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/ament_index/resource_index/parent_prefix_path/gazebo_dev
+[0.070s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.sh
+[0.071s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.dsv
+[0.071s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/environment/path.sh
+[0.071s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/environment/path.dsv
+[0.072s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/local_setup.bash
+[0.072s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/local_setup.sh
+[0.072s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/local_setup.zsh
+[0.072s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/local_setup.dsv
+[0.073s] -- Symlinking: /home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/package.dsv
+[0.079s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/ament_index/resource_index/packages/gazebo_dev
+[0.079s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_dev-extras.cmake
+[0.080s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig.cmake
+[0.080s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig-version.cmake
+[0.080s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/package.xml
+[0.081s] Invoked command in '/home/vamshin24/turtlebot3_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vamshin24/turtlebot3_ws/build/gazebo_dev

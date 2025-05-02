@@ -1,0 +1,1 @@
+Invoking command in '/home/vamshin24/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vamshin24/turtlebot3_ws/build/turtlebot3_fake_node -- -j4 -l4

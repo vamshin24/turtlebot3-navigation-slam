@@ -1,0 +1,1 @@
+/home/vamshin24/turtlebot3_ws/build/gazebo_msgs/ament_cmake_core/gazebo_msgsConfig-version.cmake

@@ -1,0 +1,111 @@
+[0.008s] Invoking command in '/home/vamshin24/turtlebot3_ws/build/gazebo_ros': CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/vamshin24/turtlebot3_ws/build/gazebo_ros -- -j6 -l6
+[0.057s] [  6%] Built target gtest
+[0.057s] [  6%] Built target mock_robot_state_publisher
+[0.057s] [  9%] Built target gtest_main
+[0.057s] [  9%] Built target ament_cmake_python_symlink_scripts
+[0.072s] [ 12%] Built target mock_gazebo_ros_factory
+[0.081s] [ 18%] Built target gazebo_ros_node
+[0.082s] [ 21%] Built target gazebo_ros_utils
+[0.106s] [ 26%] Built target args_init
+[0.106s] [ 29%] Built target gazebo_ros_force_system
+[0.106s] [ 31%] Built target gazebo_ros_state
+[0.109s] [ 34%] Built target create_node_without_init
+[0.124s] [ 37%] Built target gazebo_ros_properties
+[0.133s] [ 40%] Built target test_conversions
+[0.133s] [ 43%] Built target multiple_nodes
+[0.139s] [ 50%] Built target ros_world_plugin
+[0.139s] [ 50%] Built target sdf_node
+[0.173s] [ 56%] Built target test_gazebo_ros_joint_effort
+[0.173s] [ 56%] Built target test_gazebo_ros_factory
+[0.174s] [ 59%] Built target test_gazebo_ros_init
+[0.177s] [ 62%] Built target test_gazebo_ros_properties
+[0.177s] [ 65%] Built target test_gazebo_ros_link_wrench
+[0.188s] running egg_info
+[0.188s] writing scripts.egg-info/PKG-INFO
+[0.188s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[0.188s] writing top-level names to scripts.egg-info/top_level.txt
+[0.191s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[0.194s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[0.197s] [ 68%] Built target test_plugins
+[0.202s] [ 71%] Built target test_reject_duplicate_nodes
+[0.207s] [ 75%] Built target test_node
+[0.211s] [ 78%] Built target test_qos
+[0.211s] [ 81%] Built target test_gazebo_ros_state
+[0.220s] [ 81%] Built target ament_cmake_python_build_scripts_egg
+[0.227s] [ 84%] Built target test_sim_time
+[0.228s] [ 85%] [34m[1mAutomatic MOC for target gazebo_ros_eol_gui[0m
+[0.241s] [ 89%] Built target test_utils
+[0.249s] [ 92%] Built target gazebo_ros_init
+[0.254s] [ 95%] Built target gazebo_ros_factory
+[0.261s] [ 95%] Built target gazebo_ros_eol_gui_autogen
+[0.284s] [100%] Built target gazebo_ros_eol_gui
+[0.290s] Invoked command in '/home/vamshin24/turtlebot3_ws/build/gazebo_ros' returned '0': CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/vamshin24/turtlebot3_ws/build/gazebo_ros -- -j6 -l6
+[0.292s] Invoking command in '/home/vamshin24/turtlebot3_ws/build/gazebo_ros': CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/vamshin24/turtlebot3_ws/build/gazebo_ros
+[0.295s] -- Install configuration: ""
+[0.296s] -- Execute custom install script
+[0.296s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/environment/pythonpath.sh
+[0.296s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/environment/pythonpath.dsv
+[0.297s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages/scripts-3.9.0-py3.10.egg-info/PKG-INFO
+[0.297s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages/scripts-3.9.0-py3.10.egg-info/SOURCES.txt
+[0.297s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages/scripts-3.9.0-py3.10.egg-info/dependency_links.txt
+[0.297s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages/scripts-3.9.0-py3.10.egg-info/top_level.txt
+[0.298s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages/scripts/__init__.py
+[0.298s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages/scripts/gazebo_ros_paths.py
+[0.298s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages/scripts/spawn_entity.py
+[0.299s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/environment/library_path.sh
+[0.299s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/environment/library_path.dsv
+[0.299s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/ament_index/resource_index/package_run_dependencies/gazebo_ros
+[0.299s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/ament_index/resource_index/parent_prefix_path/gazebo_ros
+[0.299s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/environment/ament_prefix_path.sh
+[0.300s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/environment/ament_prefix_path.dsv
+[0.300s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/environment/path.sh
+[0.300s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/environment/path.dsv
+[0.300s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/local_setup.bash
+[0.300s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/local_setup.sh
+[0.300s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/local_setup.zsh
+[0.301s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/local_setup.dsv
+[0.301s] -- Symlinking: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/package.dsv
+[0.305s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/ament_index/resource_index/packages/gazebo_ros
+[0.305s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[0.305s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.305s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.305s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/cmake/gazebo_rosConfig.cmake
+[0.305s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/cmake/gazebo_rosConfig-version.cmake
+[0.306s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/package.xml
+[0.306s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/include/gazebo_ros/conversions/builtin_interfaces.hpp
+[0.306s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/include/gazebo_ros/conversions/gazebo_msgs.hpp
+[0.306s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/include/gazebo_ros/conversions/generic.hpp
+[0.307s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/include/gazebo_ros/conversions/geometry_msgs.hpp
+[0.307s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/include/gazebo_ros/conversions/sensor_msgs.hpp
+[0.307s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/include/gazebo_ros/executor.hpp
+[0.307s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/include/gazebo_ros/gazebo_ros_factory.hpp
+[0.307s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/include/gazebo_ros/gazebo_ros_force_system.hpp
+[0.307s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/include/gazebo_ros/gazebo_ros_init.hpp
+[0.307s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/include/gazebo_ros/gazebo_ros_properties.hpp
+[0.307s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/include/gazebo_ros/gazebo_ros_state.hpp
+[0.307s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/include/gazebo_ros/node.hpp
+[0.308s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/include/gazebo_ros/node_visibility_control.h
+[0.308s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/include/gazebo_ros/qos.hpp
+[0.308s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/include/gazebo_ros/testing_utils.hpp
+[0.308s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/include/gazebo_ros/utils.hpp
+[0.308s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/include/gazebo_ros/utils_visibility_control.h
+[0.308s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib/gazebo_ros//gazebo_ros_paths.py
+[0.309s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib/libgazebo_ros_factory.so
+[0.309s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib/libgazebo_ros_force_system.so
+[0.309s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib/libgazebo_ros_init.so
+[0.309s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib/libgazebo_ros_node.so
+[0.309s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib/libgazebo_ros_properties.so
+[0.309s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib/libgazebo_ros_state.so
+[0.309s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib/libgazebo_ros_utils.so
+[0.309s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib/libgazebo_ros_eol_gui.so
+[0.310s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib/gazebo_ros//spawn_entity.py
+[0.310s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros//launch/gazebo.launch.py
+[0.310s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros//launch/gzclient.launch.py
+[0.310s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros//launch/gzserver.launch.py
+[0.310s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros//launch/spawn_entity_demo.launch.py
+[0.311s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros//worlds/empty.world
+[0.311s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros//worlds/gazebo_ros_force_system_demo.world
+[0.311s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros//worlds/gazebo_ros_properties_demo.world
+[0.311s] -- Up-to-date symlink: /home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros//worlds/gazebo_ros_state_demo.world
+[0.326s] Listing '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages/scripts'...
+[0.330s] Invoked command in '/home/vamshin24/turtlebot3_ws/build/gazebo_ros' returned '0': CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/opt/ros/humble LD_LIBRARY_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/vamshin24/turtlebot3_ws/build/gazebo_ros

@@ -1,0 +1,657 @@
+[0.217s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.217s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8ff04190>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8fecfb80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8fecfb80>>)
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.368s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/vamshin24/turtlebot3_ws'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'ignore_ament_install'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['colcon_pkg']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'colcon_pkg'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['colcon_meta']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'colcon_meta'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['ros']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'ros'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['cmake', 'python']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'cmake'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'python'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extensions ['python_setup_py']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs) by extension 'python_setup_py'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'ignore'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'ignore_ament_install'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['colcon_pkg']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'colcon_pkg'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['colcon_meta']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'colcon_meta'
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extensions ['ros']
+[0.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_dev) by extension 'ros'
+[0.380s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_dev' with type 'ros.ament_cmake' and name 'gazebo_dev'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'ignore'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'ignore_ament_install'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['colcon_pkg']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'colcon_pkg'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['colcon_meta']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'colcon_meta'
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extensions ['ros']
+[0.380s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_msgs) by extension 'ros'
+[0.381s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_msgs' with type 'ros.ament_cmake' and name 'gazebo_msgs'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'ignore'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'ignore_ament_install'
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['colcon_pkg']
+[0.381s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'colcon_pkg'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['colcon_meta']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'colcon_meta'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extensions ['ros']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_plugins) by extension 'ros'
+[0.383s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_plugins' with type 'ros.ament_cmake' and name 'gazebo_plugins'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'ignore'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'ignore_ament_install'
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['colcon_pkg']
+[0.383s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'colcon_pkg'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['colcon_meta']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'colcon_meta'
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extensions ['ros']
+[0.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros) by extension 'ros'
+[0.385s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_ros' with type 'ros.ament_cmake' and name 'gazebo_ros'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'ignore'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'ignore_ament_install'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['colcon_pkg']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'colcon_pkg'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['colcon_meta']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'colcon_meta'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['ros']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'ros'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['cmake', 'python']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'cmake'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'python'
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extensions ['python_setup_py']
+[0.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_control) by extension 'python_setup_py'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['ignore', 'ignore_ament_install']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'ignore'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'ignore_ament_install'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['colcon_pkg']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'colcon_pkg'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['colcon_meta']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'colcon_meta'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extensions ['ros']
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros_pkgs/gazebo_ros_pkgs) by extension 'ros'
+[0.386s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros_pkgs/gazebo_ros_pkgs' with type 'ros.ament_cmake' and name 'gazebo_ros_pkgs'
+[0.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'colcon_meta'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['ros']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ros'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['cmake', 'python']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'cmake'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'python'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['python_setup_py']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'python_setup_py'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore_ament_install'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_pkg']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_pkg'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_meta']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_meta'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ros']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ros'
+[0.388s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_fake_node' with type 'ros.ament_cmake' and name 'turtlebot3_fake_node'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_pkg'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_meta']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_meta'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ros']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ros'
+[0.389s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_meta'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ros']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ros'
+[0.389s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_simulations' with type 'ros.ament_cmake' and name 'turtlebot3_simulations'
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.411s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/gazebo_ros_pkgs/gazebo_dev' from colcon.pkg: {'dependencies': ['Gazebo']}
+[0.412s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/gazebo_ros_pkgs/gazebo_plugins' from colcon.pkg: {'dependencies': ['Gazebo']}
+[0.412s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'src/gazebo_ros_pkgs/gazebo_ros' from colcon.pkg: {'dependencies': ['Gazebo']}
+[0.413s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.413s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.415s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 340 installed packages in /opt/ros/humble
+[0.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_target' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_clean_cache' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_clean_first' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'cmake_force_configure' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'ament_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'catkin_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'gazebo_dev' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.435s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_dev' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vamshin24/turtlebot3_ws/build/gazebo_dev', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vamshin24/turtlebot3_ws/install/gazebo_dev', 'merge_install': False, 'path': '/home/vamshin24/turtlebot3_ws/src/gazebo_ros_pkgs/gazebo_dev', 'symlink_install': True, 'test_result_base': None}
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_target' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'gazebo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.435s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vamshin24/turtlebot3_ws/build/gazebo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs', 'merge_install': False, 'path': '/home/vamshin24/turtlebot3_ws/src/gazebo_ros_pkgs/gazebo_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_fake_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vamshin24/turtlebot3_ws/build/turtlebot3_fake_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node', 'merge_install': False, 'path': '/home/vamshin24/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node', 'symlink_install': True, 'test_result_base': None}
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vamshin24/turtlebot3_ws/build/gazebo_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vamshin24/turtlebot3_ws/install/gazebo_ros', 'merge_install': False, 'path': '/home/vamshin24/turtlebot3_ws/src/gazebo_ros_pkgs/gazebo_ros', 'symlink_install': True, 'test_result_base': None}
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vamshin24/turtlebot3_ws/build/gazebo_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins', 'merge_install': False, 'path': '/home/vamshin24/turtlebot3_ws/src/gazebo_ros_pkgs/gazebo_plugins', 'symlink_install': True, 'test_result_base': None}
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros_pkgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros_pkgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vamshin24/turtlebot3_ws/build/gazebo_ros_pkgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs', 'merge_install': False, 'path': '/home/vamshin24/turtlebot3_ws/src/gazebo_ros_pkgs/gazebo_ros_pkgs', 'symlink_install': True, 'test_result_base': None}
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vamshin24/turtlebot3_ws/build/turtlebot3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo', 'merge_install': False, 'path': '/home/vamshin24/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_force_configure' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'ament_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/vamshin24/turtlebot3_ws/build/turtlebot3_simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations', 'merge_install': False, 'path': '/home/vamshin24/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_simulations', 'symlink_install': True, 'test_result_base': None}
+[0.437s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.437s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.437s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vamshin24/turtlebot3_ws/src/gazebo_ros_pkgs/gazebo_dev' with build type 'ament_cmake'
+[0.437s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vamshin24/turtlebot3_ws/src/gazebo_ros_pkgs/gazebo_dev'
+[0.443s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.443s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.443s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.446s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vamshin24/turtlebot3_ws/src/gazebo_ros_pkgs/gazebo_msgs' with build type 'ament_cmake'
+[0.446s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vamshin24/turtlebot3_ws/src/gazebo_ros_pkgs/gazebo_msgs'
+[0.447s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.447s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.448s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vamshin24/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node' with build type 'ament_cmake'
+[0.448s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vamshin24/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node'
+[0.448s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.448s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vamshin24/turtlebot3_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vamshin24/turtlebot3_ws/build/gazebo_dev -- -j6 -l6
+[0.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vamshin24/turtlebot3_ws/build/gazebo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vamshin24/turtlebot3_ws/build/gazebo_msgs -- -j6 -l6
+[0.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vamshin24/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vamshin24/turtlebot3_ws/build/turtlebot3_fake_node -- -j6 -l6
+[0.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vamshin24/turtlebot3_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vamshin24/turtlebot3_ws/build/gazebo_dev -- -j6 -l6
+[0.521s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vamshin24/turtlebot3_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vamshin24/turtlebot3_ws/build/gazebo_dev
+[0.538s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_dev)
+[0.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vamshin24/turtlebot3_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vamshin24/turtlebot3_ws/build/gazebo_dev
+[0.542s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_dev' for CMake module files
+[0.543s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_dev' for CMake config files
+[0.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_dev', 'cmake_prefix_path')
+[0.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.ps1'
+[0.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.dsv'
+[0.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.sh'
+[0.546s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_dev/bin'
+[0.546s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_dev/lib/pkgconfig/gazebo_dev.pc'
+[0.546s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_dev/lib/python3.10/site-packages'
+[0.546s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_dev/bin'
+[0.546s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/package.ps1'
+[0.547s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/package.dsv'
+[0.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/package.sh'
+[0.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/package.bash'
+[0.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/package.zsh'
+[0.550s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/colcon-core/packages/gazebo_dev)
+[0.550s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_dev)
+[0.550s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_dev' for CMake module files
+[0.550s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_dev' for CMake config files
+[0.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_dev', 'cmake_prefix_path')
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.ps1'
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.dsv'
+[0.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/hook/cmake_prefix_path.sh'
+[0.551s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_dev/bin'
+[0.551s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_dev/lib/pkgconfig/gazebo_dev.pc'
+[0.552s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_dev/lib/python3.10/site-packages'
+[0.552s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_dev/bin'
+[0.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/package.ps1'
+[0.552s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/package.dsv'
+[0.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/package.sh'
+[0.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/package.bash'
+[0.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/gazebo_dev/package.zsh'
+[0.553s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vamshin24/turtlebot3_ws/install/gazebo_dev/share/colcon-core/packages/gazebo_dev)
+[0.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vamshin24/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vamshin24/turtlebot3_ws/build/turtlebot3_fake_node -- -j6 -l6
+[0.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vamshin24/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vamshin24/turtlebot3_ws/build/turtlebot3_fake_node
+[0.584s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_fake_node)
+[0.585s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node' for CMake module files
+[0.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vamshin24/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vamshin24/turtlebot3_ws/build/turtlebot3_fake_node
+[0.585s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node' for CMake config files
+[0.585s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'cmake_prefix_path')
+[0.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.ps1'
+[0.586s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.dsv'
+[0.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.sh'
+[0.586s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/lib'
+[0.587s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/bin'
+[0.587s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/lib/pkgconfig/turtlebot3_fake_node.pc'
+[0.587s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/lib/python3.10/site-packages'
+[0.587s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/bin'
+[0.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.ps1'
+[0.587s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv'
+[0.587s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.sh'
+[0.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.bash'
+[0.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.zsh'
+[0.588s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/share/colcon-core/packages/turtlebot3_fake_node)
+[0.589s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_fake_node)
+[0.589s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node' for CMake module files
+[0.589s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node' for CMake config files
+[0.589s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'cmake_prefix_path')
+[0.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.ps1'
+[0.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.dsv'
+[0.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.sh'
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/lib'
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/bin'
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/lib/pkgconfig/turtlebot3_fake_node.pc'
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/lib/python3.10/site-packages'
+[0.590s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/bin'
+[0.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.ps1'
+[0.591s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv'
+[0.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.sh'
+[0.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.bash'
+[0.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.zsh'
+[0.592s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node/share/colcon-core/packages/turtlebot3_fake_node)
+[0.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vamshin24/turtlebot3_ws/build/gazebo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vamshin24/turtlebot3_ws/build/gazebo_msgs -- -j6 -l6
+[0.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vamshin24/turtlebot3_ws/build/gazebo_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vamshin24/turtlebot3_ws/build/gazebo_msgs
+[1.091s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_msgs)
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs' for CMake module files
+[1.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vamshin24/turtlebot3_ws/build/gazebo_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vamshin24/turtlebot3_ws/build/gazebo_msgs
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs' for CMake config files
+[1.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_msgs', 'cmake_prefix_path')
+[1.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.ps1'
+[1.094s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.dsv'
+[1.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.sh'
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib'
+[1.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_msgs', 'ld_library_path_lib')
+[1.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.ps1'
+[1.095s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.dsv'
+[1.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.sh'
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/bin'
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib/pkgconfig/gazebo_msgs.pc'
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib/python3.10/site-packages'
+[1.095s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/bin'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/share/gazebo_msgs/package.ps1'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/share/gazebo_msgs/package.dsv'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/share/gazebo_msgs/package.sh'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/share/gazebo_msgs/package.bash'
+[1.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/share/gazebo_msgs/package.zsh'
+[1.096s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/share/colcon-core/packages/gazebo_msgs)
+[1.097s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_msgs)
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs' for CMake module files
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs' for CMake config files
+[1.098s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_msgs', 'cmake_prefix_path')
+[1.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.ps1'
+[1.099s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.dsv'
+[1.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/share/gazebo_msgs/hook/cmake_prefix_path.sh'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib'
+[1.099s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_msgs', 'ld_library_path_lib')
+[1.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.ps1'
+[1.099s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.dsv'
+[1.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/share/gazebo_msgs/hook/ld_library_path_lib.sh'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/bin'
+[1.100s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib/pkgconfig/gazebo_msgs.pc'
+[1.100s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib/python3.10/site-packages'
+[1.100s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/bin'
+[1.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/share/gazebo_msgs/package.ps1'
+[1.100s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/share/gazebo_msgs/package.dsv'
+[1.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/share/gazebo_msgs/package.sh'
+[1.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/share/gazebo_msgs/package.bash'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/share/gazebo_msgs/package.zsh'
+[1.101s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/share/colcon-core/packages/gazebo_msgs)
+[1.101s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vamshin24/turtlebot3_ws/src/gazebo_ros_pkgs/gazebo_ros' with build type 'ament_cmake'
+[1.101s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vamshin24/turtlebot3_ws/src/gazebo_ros_pkgs/gazebo_ros'
+[1.101s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.101s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vamshin24/turtlebot3_ws/build/gazebo_ros': AMENT_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/opt/ros/humble LD_LIBRARY_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vamshin24/turtlebot3_ws/build/gazebo_ros -- -j6 -l6
+[1.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vamshin24/turtlebot3_ws/build/gazebo_ros' returned '0': AMENT_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/opt/ros/humble LD_LIBRARY_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vamshin24/turtlebot3_ws/build/gazebo_ros -- -j6 -l6
+[1.910s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vamshin24/turtlebot3_ws/build/gazebo_ros': AMENT_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/opt/ros/humble LD_LIBRARY_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vamshin24/turtlebot3_ws/build/gazebo_ros
+[1.948s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros)
+[1.948s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_ros' for CMake module files
+[1.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vamshin24/turtlebot3_ws/build/gazebo_ros' returned '0': AMENT_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/opt/ros/humble LD_LIBRARY_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vamshin24/turtlebot3_ws/build/gazebo_ros
+[1.948s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_ros' for CMake config files
+[1.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros', 'cmake_prefix_path')
+[1.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/hook/cmake_prefix_path.ps1'
+[1.949s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/hook/cmake_prefix_path.dsv'
+[1.949s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/hook/cmake_prefix_path.sh'
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib'
+[1.950s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros', 'ld_library_path_lib')
+[1.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/hook/ld_library_path_lib.ps1'
+[1.950s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/hook/ld_library_path_lib.dsv'
+[1.950s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/hook/ld_library_path_lib.sh'
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/bin'
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib/pkgconfig/gazebo_ros.pc'
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib/python3.10/site-packages'
+[1.951s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/bin'
+[1.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/package.ps1'
+[1.951s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/package.dsv'
+[1.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/package.sh'
+[1.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/package.bash'
+[1.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/package.zsh'
+[1.951s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/colcon-core/packages/gazebo_ros)
+[1.952s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros)
+[1.952s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_ros' for CMake module files
+[1.952s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_ros' for CMake config files
+[1.952s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros', 'cmake_prefix_path')
+[1.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/hook/cmake_prefix_path.ps1'
+[1.952s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/hook/cmake_prefix_path.dsv'
+[1.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/hook/cmake_prefix_path.sh'
+[1.953s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib'
+[1.953s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros', 'ld_library_path_lib')
+[1.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/hook/ld_library_path_lib.ps1'
+[1.953s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/hook/ld_library_path_lib.dsv'
+[1.953s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/hook/ld_library_path_lib.sh'
+[1.953s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/bin'
+[1.953s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib/pkgconfig/gazebo_ros.pc'
+[1.953s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib/python3.10/site-packages'
+[1.954s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/bin'
+[1.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/package.ps1'
+[1.954s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/package.dsv'
+[1.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/package.sh'
+[1.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/package.bash'
+[1.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/gazebo_ros/package.zsh'
+[1.955s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vamshin24/turtlebot3_ws/install/gazebo_ros/share/colcon-core/packages/gazebo_ros)
+[1.955s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vamshin24/turtlebot3_ws/src/gazebo_ros_pkgs/gazebo_plugins' with build type 'ament_cmake'
+[1.955s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vamshin24/turtlebot3_ws/src/gazebo_ros_pkgs/gazebo_plugins'
+[1.955s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.955s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vamshin24/turtlebot3_ws/build/gazebo_plugins': AMENT_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/opt/ros/humble LD_LIBRARY_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vamshin24/turtlebot3_ws/build/gazebo_plugins -- -j6 -l6
+[80.826s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vamshin24/turtlebot3_ws/build/gazebo_plugins' returned '0': AMENT_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/opt/ros/humble LD_LIBRARY_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vamshin24/turtlebot3_ws/build/gazebo_plugins -- -j6 -l6
+[80.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vamshin24/turtlebot3_ws/build/gazebo_plugins': AMENT_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/opt/ros/humble LD_LIBRARY_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vamshin24/turtlebot3_ws/build/gazebo_plugins
+[81.138s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_plugins)
+[81.138s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins' for CMake module files
+[81.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vamshin24/turtlebot3_ws/build/gazebo_plugins' returned '0': AMENT_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/opt/ros/humble LD_LIBRARY_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vamshin24/turtlebot3_ws/build/gazebo_plugins
+[81.139s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins' for CMake config files
+[81.139s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_plugins', 'cmake_prefix_path')
+[81.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/share/gazebo_plugins/hook/cmake_prefix_path.ps1'
+[81.140s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/share/gazebo_plugins/hook/cmake_prefix_path.dsv'
+[81.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/share/gazebo_plugins/hook/cmake_prefix_path.sh'
+[81.141s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/lib'
+[81.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_plugins', 'ld_library_path_lib')
+[81.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/share/gazebo_plugins/hook/ld_library_path_lib.ps1'
+[81.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/share/gazebo_plugins/hook/ld_library_path_lib.dsv'
+[81.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/share/gazebo_plugins/hook/ld_library_path_lib.sh'
+[81.141s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/bin'
+[81.141s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/lib/pkgconfig/gazebo_plugins.pc'
+[81.142s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/lib/python3.10/site-packages'
+[81.142s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/bin'
+[81.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/share/gazebo_plugins/package.ps1'
+[81.142s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/share/gazebo_plugins/package.dsv'
+[81.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/share/gazebo_plugins/package.sh'
+[81.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/share/gazebo_plugins/package.bash'
+[81.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/share/gazebo_plugins/package.zsh'
+[81.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/share/colcon-core/packages/gazebo_plugins)
+[81.144s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_plugins)
+[81.144s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins' for CMake module files
+[81.144s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins' for CMake config files
+[81.145s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_plugins', 'cmake_prefix_path')
+[81.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/share/gazebo_plugins/hook/cmake_prefix_path.ps1'
+[81.145s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/share/gazebo_plugins/hook/cmake_prefix_path.dsv'
+[81.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/share/gazebo_plugins/hook/cmake_prefix_path.sh'
+[81.145s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/lib'
+[81.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_plugins', 'ld_library_path_lib')
+[81.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/share/gazebo_plugins/hook/ld_library_path_lib.ps1'
+[81.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/share/gazebo_plugins/hook/ld_library_path_lib.dsv'
+[81.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/share/gazebo_plugins/hook/ld_library_path_lib.sh'
+[81.146s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/bin'
+[81.146s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/lib/pkgconfig/gazebo_plugins.pc'
+[81.146s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/lib/python3.10/site-packages'
+[81.146s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/bin'
+[81.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/share/gazebo_plugins/package.ps1'
+[81.147s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/share/gazebo_plugins/package.dsv'
+[81.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/share/gazebo_plugins/package.sh'
+[81.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/share/gazebo_plugins/package.bash'
+[81.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/share/gazebo_plugins/package.zsh'
+[81.148s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/share/colcon-core/packages/gazebo_plugins)
+[81.148s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vamshin24/turtlebot3_ws/src/gazebo_ros_pkgs/gazebo_ros_pkgs' with build type 'ament_cmake'
+[81.148s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vamshin24/turtlebot3_ws/src/gazebo_ros_pkgs/gazebo_ros_pkgs'
+[81.148s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[81.148s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[81.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vamshin24/turtlebot3_ws/build/gazebo_ros_pkgs': AMENT_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/opt/ros/humble LD_LIBRARY_PATH=/usr/local/lib/gazebo-11/plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/vamshin24/turtlebot3_ws/src/gazebo_ros_pkgs/gazebo_ros_pkgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs
+[81.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vamshin24/turtlebot3_ws/build/gazebo_ros_pkgs' returned '0': AMENT_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/opt/ros/humble LD_LIBRARY_PATH=/usr/local/lib/gazebo-11/plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/vamshin24/turtlebot3_ws/src/gazebo_ros_pkgs/gazebo_ros_pkgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs
+[81.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vamshin24/turtlebot3_ws/build/gazebo_ros_pkgs': AMENT_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/opt/ros/humble LD_LIBRARY_PATH=/usr/local/lib/gazebo-11/plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vamshin24/turtlebot3_ws/build/gazebo_ros_pkgs -- -j6 -l6
+[81.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vamshin24/turtlebot3_ws/build/gazebo_ros_pkgs' returned '0': AMENT_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/opt/ros/humble LD_LIBRARY_PATH=/usr/local/lib/gazebo-11/plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vamshin24/turtlebot3_ws/build/gazebo_ros_pkgs -- -j6 -l6
+[81.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vamshin24/turtlebot3_ws/build/gazebo_ros_pkgs': AMENT_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/opt/ros/humble LD_LIBRARY_PATH=/usr/local/lib/gazebo-11/plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vamshin24/turtlebot3_ws/build/gazebo_ros_pkgs
+[81.586s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros_pkgs)
+[81.586s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs' for CMake module files
+[81.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vamshin24/turtlebot3_ws/build/gazebo_ros_pkgs' returned '0': AMENT_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/opt/ros/humble LD_LIBRARY_PATH=/usr/local/lib/gazebo-11/plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vamshin24/turtlebot3_ws/build/gazebo_ros_pkgs
+[81.587s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs' for CMake config files
+[81.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros_pkgs', 'cmake_prefix_path')
+[81.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/hook/cmake_prefix_path.ps1'
+[81.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/hook/cmake_prefix_path.dsv'
+[81.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/hook/cmake_prefix_path.sh'
+[81.587s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs/bin'
+[81.587s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs/lib/pkgconfig/gazebo_ros_pkgs.pc'
+[81.587s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs/lib/python3.10/site-packages'
+[81.588s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs/bin'
+[81.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/package.ps1'
+[81.588s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/package.dsv'
+[81.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/package.sh'
+[81.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/package.bash'
+[81.588s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/package.zsh'
+[81.588s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs/share/colcon-core/packages/gazebo_ros_pkgs)
+[81.589s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros_pkgs)
+[81.589s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs' for CMake module files
+[81.589s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs' for CMake config files
+[81.589s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros_pkgs', 'cmake_prefix_path')
+[81.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/hook/cmake_prefix_path.ps1'
+[81.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/hook/cmake_prefix_path.dsv'
+[81.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/hook/cmake_prefix_path.sh'
+[81.590s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs/bin'
+[81.590s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs/lib/pkgconfig/gazebo_ros_pkgs.pc'
+[81.590s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs/lib/python3.10/site-packages'
+[81.590s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs/bin'
+[81.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/package.ps1'
+[81.590s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/package.dsv'
+[81.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/package.sh'
+[81.590s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/package.bash'
+[81.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs/share/gazebo_ros_pkgs/package.zsh'
+[81.591s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs/share/colcon-core/packages/gazebo_ros_pkgs)
+[81.591s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vamshin24/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo' with build type 'ament_cmake'
+[81.591s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vamshin24/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo'
+[81.591s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[81.591s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[81.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vamshin24/turtlebot3_ws/build/turtlebot3_gazebo': AMENT_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/opt/ros/humble LD_LIBRARY_PATH=/usr/local/lib/gazebo-11/plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/vamshin24/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo
+[82.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vamshin24/turtlebot3_ws/build/turtlebot3_gazebo' returned '0': AMENT_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/opt/ros/humble LD_LIBRARY_PATH=/usr/local/lib/gazebo-11/plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/vamshin24/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo
+[82.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vamshin24/turtlebot3_ws/build/turtlebot3_gazebo': AMENT_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/opt/ros/humble LD_LIBRARY_PATH=/usr/local/lib/gazebo-11/plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vamshin24/turtlebot3_ws/build/turtlebot3_gazebo -- -j6 -l6
+[95.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vamshin24/turtlebot3_ws/build/turtlebot3_gazebo' returned '0': AMENT_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/opt/ros/humble LD_LIBRARY_PATH=/usr/local/lib/gazebo-11/plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vamshin24/turtlebot3_ws/build/turtlebot3_gazebo -- -j6 -l6
+[95.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vamshin24/turtlebot3_ws/build/turtlebot3_gazebo': AMENT_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/opt/ros/humble LD_LIBRARY_PATH=/usr/local/lib/gazebo-11/plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vamshin24/turtlebot3_ws/build/turtlebot3_gazebo
+[95.627s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[95.628s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo' for CMake module files
+[95.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vamshin24/turtlebot3_ws/build/turtlebot3_gazebo' returned '0': AMENT_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/opt/ros/humble LD_LIBRARY_PATH=/usr/local/lib/gazebo-11/plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vamshin24/turtlebot3_ws/build/turtlebot3_gazebo
+[95.629s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo' for CMake config files
+[95.629s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[95.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[95.631s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[95.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[95.631s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/lib'
+[95.631s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/bin'
+[95.631s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[95.631s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[95.632s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/bin'
+[95.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[95.632s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[95.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[95.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[95.633s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[95.633s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[95.633s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[95.633s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo' for CMake module files
+[95.634s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo' for CMake config files
+[95.634s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[95.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[95.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[95.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[95.635s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/lib'
+[95.635s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/bin'
+[95.635s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[95.635s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[95.635s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/bin'
+[95.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[95.635s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[95.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[95.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[95.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[95.637s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[95.637s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/vamshin24/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_simulations' with build type 'ament_cmake'
+[95.637s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/vamshin24/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_simulations'
+[95.637s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[95.637s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[95.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vamshin24/turtlebot3_ws/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo:/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo:/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/opt/ros/humble LD_LIBRARY_PATH=/usr/local/lib/gazebo-11/plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/vamshin24/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_simulations -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations
+[95.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vamshin24/turtlebot3_ws/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo:/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo:/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/opt/ros/humble LD_LIBRARY_PATH=/usr/local/lib/gazebo-11/plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/vamshin24/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_simulations -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations
+[95.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vamshin24/turtlebot3_ws/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo:/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo:/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/opt/ros/humble LD_LIBRARY_PATH=/usr/local/lib/gazebo-11/plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vamshin24/turtlebot3_ws/build/turtlebot3_simulations -- -j6 -l6
+[95.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vamshin24/turtlebot3_ws/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo:/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo:/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/opt/ros/humble LD_LIBRARY_PATH=/usr/local/lib/gazebo-11/plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vamshin24/turtlebot3_ws/build/turtlebot3_simulations -- -j6 -l6
+[95.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/vamshin24/turtlebot3_ws/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo:/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo:/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/opt/ros/humble LD_LIBRARY_PATH=/usr/local/lib/gazebo-11/plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vamshin24/turtlebot3_ws/build/turtlebot3_simulations
+[96.022s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_simulations)
+[96.022s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations' for CMake module files
+[96.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/vamshin24/turtlebot3_ws/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo:/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo:/home/vamshin24/turtlebot3_ws/install/gazebo_ros_pkgs:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_ros:/home/vamshin24/turtlebot3_ws/install/turtlebot3_fake_node:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs:/home/vamshin24/turtlebot3_ws/install/gazebo_dev:/opt/ros/humble LD_LIBRARY_PATH=/usr/local/lib/gazebo-11/plugins:/home/vamshin24/turtlebot3_ws/install/gazebo_plugins/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_ros/lib:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vamshin24/turtlebot3_ws/install/gazebo_ros/local/lib/python3.10/dist-packages:/home/vamshin24/turtlebot3_ws/install/gazebo_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vamshin24/turtlebot3_ws/build/turtlebot3_simulations
+[96.022s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations' for CMake config files
+[96.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_simulations', 'cmake_prefix_path')
+[96.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.ps1'
+[96.023s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.dsv'
+[96.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.sh'
+[96.023s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations/bin'
+[96.023s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations/lib/pkgconfig/turtlebot3_simulations.pc'
+[96.023s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations/lib/python3.10/site-packages'
+[96.023s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations/bin'
+[96.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.ps1'
+[96.023s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv'
+[96.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.sh'
+[96.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.bash'
+[96.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.zsh'
+[96.024s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations/share/colcon-core/packages/turtlebot3_simulations)
+[96.024s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_simulations)
+[96.024s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations' for CMake module files
+[96.024s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations' for CMake config files
+[96.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_simulations', 'cmake_prefix_path')
+[96.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.ps1'
+[96.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.dsv'
+[96.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.sh'
+[96.025s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations/bin'
+[96.025s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations/lib/pkgconfig/turtlebot3_simulations.pc'
+[96.026s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations/lib/python3.10/site-packages'
+[96.026s] Level 1:colcon.colcon_core.environment:checking '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations/bin'
+[96.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.ps1'
+[96.026s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv'
+[96.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.sh'
+[96.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.bash'
+[96.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.zsh'
+[96.027s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/vamshin24/turtlebot3_ws/install/turtlebot3_simulations/share/colcon-core/packages/turtlebot3_simulations)
+[96.027s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[96.027s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[96.027s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[96.027s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[96.039s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[96.039s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[96.039s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[96.156s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[96.158s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vamshin24/turtlebot3_ws/install/local_setup.ps1'
+[96.161s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vamshin24/turtlebot3_ws/install/_local_setup_util_ps1.py'
+[96.163s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vamshin24/turtlebot3_ws/install/setup.ps1'
+[96.165s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vamshin24/turtlebot3_ws/install/local_setup.sh'
+[96.166s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/vamshin24/turtlebot3_ws/install/_local_setup_util_sh.py'
+[96.167s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vamshin24/turtlebot3_ws/install/setup.sh'
+[96.168s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vamshin24/turtlebot3_ws/install/local_setup.bash'
+[96.169s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vamshin24/turtlebot3_ws/install/setup.bash'
+[96.171s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/vamshin24/turtlebot3_ws/install/local_setup.zsh'
+[96.172s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/vamshin24/turtlebot3_ws/install/setup.zsh'

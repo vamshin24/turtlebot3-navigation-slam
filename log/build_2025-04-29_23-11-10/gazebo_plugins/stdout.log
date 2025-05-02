@@ -1,0 +1,37 @@
+[  4%] Built target gazebo_ros_force
+[  4%] Built target gazebo_ros_joint_state_publisher
+[  6%] Built target gazebo_ros_template
+[  9%] Built target multi_camera_plugin
+[ 11%] Built target gazebo_ros_diff_drive
+[ 13%] Built target gazebo_ros_imu_sensor
+[ 16%] Built target gazebo_ros_gps_sensor
+[ 18%] Built target gazebo_ros_ray_sensor
+[ 20%] Built target gazebo_ros_p3d
+[ 23%] Built target gazebo_ros_ft_sensor
+[ 25%] Built target gazebo_ros_tricycle_drive
+[ 27%] Built target gazebo_ros_video
+[ 30%] Built target gazebo_ros_elevator
+[ 32%] Built target gazebo_ros_bumper
+[ 34%] Built target gazebo_ros_harness
+[ 37%] Built target gazebo_ros_hand_of_god
+[ 39%] Built target gazebo_ros_ackermann_drive
+[ 44%] Built target gtest_main
+[ 44%] Built target gazebo_ros_vacuum_gripper
+[ 46%] Built target gazebo_ros_planar_move
+[ 48%] Built target gazebo_ros_joint_pose_trajectory
+[ 51%] Built target gazebo_ros_projector
+[ 53%] Built target gazebo_ros_wheel_slip
+[ 55%] Built target gtest
+[ 56%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_bumper.dir/test_gazebo_ros_bumper.cpp.o[0m
+[ 59%] Built target gazebo_ros_camera
+[ 63%] Built target test_gazebo_ros_ackermann_drive
+[ 63%] Built target test_gazebo_ros_force
+[ 66%] Built target test_gazebo_ros_elevator
+[ 68%] Built target test_gazebo_ros_diff_drive
+[ 69%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_harness.dir/test_gazebo_ros_harness.cpp.o[0m
+[ 70%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_imu_sensor.dir/test_gazebo_ros_imu_sensor.cpp.o[0m
+[ 73%] Built target test_gazebo_ros_ft_sensor
+[ 74%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_gps_sensor.dir/test_gazebo_ros_gps_sensor.cpp.o[0m
+[ 75%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_joint_pose_trajectory.dir/test_gazebo_ros_joint_pose_trajectory.cpp.o[0m
+[ 77%] Built target test_gazebo_ros_hand_of_god
+[ 79%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_joint_state_publisher.dir/test_gazebo_ros_joint_state_publisher.cpp.o[0m

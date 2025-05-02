@@ -1,0 +1,1 @@
+/home/vamshin24/turtlebot3_ws/src/gazebo_ros_pkgs/gazebo_ros/scripts/gazebo_ros_paths.py

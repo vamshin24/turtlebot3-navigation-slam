@@ -1,0 +1,87 @@
+[0.007s] Invoking command in '/home/vamshin24/turtlebot3_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vamshin24/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo
+[0.028s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.105s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.122s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.125s] -- Checking for module 'bullet>=2.82'
+[0.130s] --   Found bullet, version 3.05
+[0.311s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[0.329s] -- Found Protobuf: /usr/lib/aarch64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.333s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.339s] -- Searching for dependencies of ignition-math6
+[0.340s] -- Looking for OGRE...
+[0.341s] -- OGRE_PREFIX_WATCH changed.
+[0.343s] -- Checking for module 'OGRE'
+[0.346s] --   Found OGRE, version 1.9.0
+[0.355s] -- Found Ogre Ghadamon (1.9.0)
+[0.360s] -- Found OGRE: optimized;/usr/lib/aarch64-linux-gnu/libOgreMain.so;debug;/usr/lib/aarch64-linux-gnu/libOgreMain.so
+[0.364s] -- Looking for OGRE_Paging...
+[0.367s] -- Found OGRE_Paging: optimized;/usr/lib/aarch64-linux-gnu/libOgrePaging.so;debug;/usr/lib/aarch64-linux-gnu/libOgrePaging.so
+[0.367s] -- Looking for OGRE_Terrain...
+[0.369s] -- Found OGRE_Terrain: optimized;/usr/lib/aarch64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/aarch64-linux-gnu/libOgreTerrain.so
+[0.369s] -- Looking for OGRE_Property...
+[0.372s] -- Found OGRE_Property: optimized;/usr/lib/aarch64-linux-gnu/libOgreProperty.so;debug;/usr/lib/aarch64-linux-gnu/libOgreProperty.so
+[0.372s] -- Looking for OGRE_RTShaderSystem...
+[0.375s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/aarch64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/aarch64-linux-gnu/libOgreRTShaderSystem.so
+[0.375s] -- Looking for OGRE_Volume...
+[0.378s] -- Found OGRE_Volume: optimized;/usr/lib/aarch64-linux-gnu/libOgreVolume.so;debug;/usr/lib/aarch64-linux-gnu/libOgreVolume.so
+[0.378s] -- Looking for OGRE_Overlay...
+[0.380s] -- Found OGRE_Overlay: optimized;/usr/lib/aarch64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/aarch64-linux-gnu/libOgreOverlay.so
+[0.439s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.440s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.441s] -- Searching for dependencies of ignition-transport8
+[0.450s] -- Found Protobuf: /usr/lib/aarch64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.456s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.458s] -- Checking for module 'libzmq >= 4'
+[0.465s] --   Found libzmq , version 4.3.4
+[0.476s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[0.479s] -- Checking for module 'uuid'
+[0.483s] --   Found uuid, version 2.37.2
+[0.492s] -- Found UUID: TRUE  
+[0.494s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.494s] -- Searching for dependencies of ignition-msgs5
+[0.504s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.506s] -- Checking for module 'tinyxml2'
+[0.511s] --   Found tinyxml2, version 9.0.0
+[0.521s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.523s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.525s] -- Searching for dependencies of ignition-common3
+[0.525s] -- Looking for dlfcn.h - found
+[0.525s] -- Looking for libdl - found
+[0.525s] -- Found DL: TRUE  
+[0.530s] -- Found tinyobjloader: /usr/lib/aarch64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[0.531s] -- Searching for <ignition-common3> component [graphics]
+[0.532s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.532s] -- Searching for dependencies of ignition-common3-graphics
+[0.532s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.534s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.534s] -- Searching for dependencies of ignition-fuel_tools4
+[0.563s] -- Found CURL: /usr/lib/aarch64-linux-gnu/libcurl.so (found version "7.81.0")  
+[0.567s] -- Checking for module 'jsoncpp'
+[0.571s] --   Found jsoncpp, version 1.9.5
+[0.580s] -- Found JSONCPP: TRUE  
+[0.583s] -- Checking for module 'libzip'
+[0.588s] --   Found libzip, version 1.7.3
+[0.597s] -- Found ZIP: TRUE  
+[0.598s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.598s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.598s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.607s] [31mCMake Error at CMakeLists.txt:24 (find_package):
+[0.607s]   By not providing "Findgazebo_ros_pkgs.cmake" in CMAKE_MODULE_PATH this
+[0.607s]   project has asked CMake to find a package configuration file provided by
+[0.607s]   "gazebo_ros_pkgs", but CMake did not find one.
+[0.607s] 
+[0.607s]   Could not find a package configuration file provided by "gazebo_ros_pkgs"
+[0.607s]   with any of the following names:
+[0.607s] 
+[0.607s]     gazebo_ros_pkgsConfig.cmake
+[0.607s]     gazebo_ros_pkgs-config.cmake
+[0.607s] 
+[0.607s]   Add the installation prefix of "gazebo_ros_pkgs" to CMAKE_PREFIX_PATH or
+[0.607s]   set "gazebo_ros_pkgs_DIR" to a directory containing one of the above files.
+[0.607s]   If "gazebo_ros_pkgs" provides a separate development package or SDK, be
+[0.607s]   sure it has been installed.
+[0.607s] 
+[0.607s] [0m
+[0.607s] -- Configuring incomplete, errors occurred!
+[0.607s] See also "/home/vamshin24/turtlebot3_ws/build/turtlebot3_gazebo/CMakeFiles/CMakeOutput.log".
+[0.610s] Invoked command in '/home/vamshin24/turtlebot3_ws/build/turtlebot3_gazebo' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vamshin24/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vamshin24/turtlebot3_ws/install/turtlebot3_gazebo

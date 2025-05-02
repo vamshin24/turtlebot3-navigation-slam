@@ -1,0 +1,1 @@
+/home/vamshin24/turtlebot3_ws/build/gazebo_msgs/rosidl_generator_py/gazebo_msgs/msg/_contacts_state.py

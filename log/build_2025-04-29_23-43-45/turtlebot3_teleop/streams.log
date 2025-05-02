@@ -1,0 +1,41 @@
+[0.340s] Invoking command in '/home/vamshin24/turtlebot3_ws/build/turtlebot3_teleop': PYTHONPATH=/home/vamshin24/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vamshin24/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vamshin24/turtlebot3_ws/build/turtlebot3_teleop/build
+[0.470s] running develop
+[0.546s] Removing /home/vamshin24/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3-teleop.egg-link (link to .)
+[0.563s] Invoked command in '/home/vamshin24/turtlebot3_ws/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/vamshin24/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vamshin24/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/vamshin24/turtlebot3_ws/build/turtlebot3_teleop/build
+[0.563s] Invoking command in '/home/vamshin24/turtlebot3_ws/src/turtlebot3/turtlebot3_teleop': PYTHONPATH=/home/vamshin24/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vamshin24/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/vamshin24/turtlebot3_ws/build/turtlebot3_teleop/build install --record /home/vamshin24/turtlebot3_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data --force
+[0.680s] running egg_info
+[0.681s] writing ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/PKG-INFO
+[0.681s] writing dependency_links to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/dependency_links.txt
+[0.681s] writing entry points to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/entry_points.txt
+[0.681s] writing requirements to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/requires.txt
+[0.681s] writing top-level names to ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/top_level.txt
+[0.682s] reading manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[0.683s] writing manifest file '../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info/SOURCES.txt'
+[0.683s] running build
+[0.683s] running build_py
+[0.683s] creating /home/vamshin24/turtlebot3_ws/build/turtlebot3_teleop/build
+[0.683s] creating /home/vamshin24/turtlebot3_ws/build/turtlebot3_teleop/build/lib
+[0.683s] creating /home/vamshin24/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[0.684s] copying turtlebot3_teleop/__init__.py -> /home/vamshin24/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop
+[0.684s] creating /home/vamshin24/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[0.684s] copying turtlebot3_teleop/script/teleop_keyboard.py -> /home/vamshin24/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[0.684s] copying turtlebot3_teleop/script/__init__.py -> /home/vamshin24/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script
+[0.684s] running install
+[0.685s] running install_lib
+[0.686s] creating /home/vamshin24/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop
+[0.686s] creating /home/vamshin24/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script
+[0.686s] copying /home/vamshin24/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/teleop_keyboard.py -> /home/vamshin24/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script
+[0.686s] copying /home/vamshin24/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/script/__init__.py -> /home/vamshin24/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script
+[0.686s] copying /home/vamshin24/turtlebot3_ws/build/turtlebot3_teleop/build/lib/turtlebot3_teleop/__init__.py -> /home/vamshin24/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop
+[0.686s] byte-compiling /home/vamshin24/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc
+[0.686s] byte-compiling /home/vamshin24/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/script/__init__.py to __init__.cpython-310.pyc
+[0.687s] byte-compiling /home/vamshin24/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop/__init__.py to __init__.cpython-310.pyc
+[0.687s] running install_data
+[0.687s] copying resource/turtlebot3_teleop -> /home/vamshin24/turtlebot3_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[0.687s] copying package.xml -> /home/vamshin24/turtlebot3_ws/install/turtlebot3_teleop/share/turtlebot3_teleop
+[0.687s] running install_egg_info
+[0.688s] Copying ../../../build/turtlebot3_teleop/turtlebot3_teleop.egg-info to /home/vamshin24/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3_teleop-2.2.9-py3.10.egg-info
+[0.688s] running install_scripts
+[0.703s] Installing teleop_keyboard script to /home/vamshin24/turtlebot3_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[0.703s] writing list of installed files to '/home/vamshin24/turtlebot3_ws/build/turtlebot3_teleop/install.log'
+[0.722s] Invoked command in '/home/vamshin24/turtlebot3_ws/src/turtlebot3/turtlebot3_teleop' returned '0': PYTHONPATH=/home/vamshin24/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vamshin24/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/vamshin24/turtlebot3_ws/build/turtlebot3_teleop/build install --record /home/vamshin24/turtlebot3_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data --force
