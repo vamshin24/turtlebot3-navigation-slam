@@ -13,7 +13,6 @@ This project demonstrates the setup of **TurtleBot3** in a **ROS2** environment 
 - [Usage](#usage)
   - [Teleoperation](#teleoperation)
   - [SLAM](#slam)
-- [License](#license)
 
 ## Introduction
 
@@ -142,13 +141,6 @@ You can control the robot's **linear** and **angular velocities** using the GUI.
 
 To run **SLAM** (Simultaneous Localization and Mapping), you can either use **Gazebo** simulation or a **real TurtleBot3**. The steps for SLAM are outlined above in the **Real TurtleBot3 Setup** section.
 
----
-
-## License
-
-This project is licensed under the **MIT License**. See the **LICENSE** file for more details.
-
----
 
 ### Notes:
 
